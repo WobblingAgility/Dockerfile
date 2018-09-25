@@ -82,7 +82,7 @@ Plug 'tomasr/molokai'
 "*****************************************************************************
 
 " golang
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
@@ -167,7 +167,7 @@ set number
 
 let no_buffers_menu=1
 if !exists('g:not_finish_vimplug')
-""colorscheme molokai
+colorscheme molokai
 endif
 
 set mousemodel=popup
